@@ -13,3 +13,13 @@ body {
 }
 
 
+
+
+.cubo {
+    background-color: rgb(14, 167, 154);
+    border-radius: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
