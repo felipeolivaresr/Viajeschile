@@ -21,5 +21,43 @@ body {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    display: flex;   
+    display: flex;
+}
+
+.icons i {
+    float: right;
+
+
+}
+
+
+footer {
+    background-color: rgb(14, 167, 154);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+p,
+h3,
+h4 {
+    color: antiquewhite;
+
+}
+
+.btn {
+   background-color: rgb(14, 167, 154);
+}
+
+.navbar-brand, .nav-link{
+    color: antiquewhite;
+}
+
+label{
+    color: antiquewhite;
+}
+
+.card {
+    background-color: rgb(14, 167, 154);
 }
