@@ -36,7 +36,7 @@
                         <a class="nav-link " href="#">Inicio</a>
                         <a class="nav-link " href="#">Quienes Somos</a>
                         <a class="nav-link " href="#">Destacados</a>
-                        <a class="nav-link " href="#">Conctacto</a>
+                        <a class="nav-link " href="#">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -70,15 +70,15 @@
 
 
     <section class="d-none d-md-block">
-        <h3 class="text-center">¿QUIÉNES SOMOS?</h3>
+        <h3 class="text-center mt-4">¿QUIÉNES SOMOS?</h3>
         <hr>
         </hr>
         <div class="row m-5">
             <div class="col">
                 <div class="cubo">
-                    <i class="fa-solid fa-plane" style="color: antiquewhite;"></i>
+                    <i class="fa-solid fa-plane " style="color: antiquewhite;"></i>
                 </div>
-                <p>
+                <p class="Toggleoff">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac nulla vel justo sagittis
                     eleifend.
                     Donec a dui dui. Proin nec purus id mi condimentum ullamcorper. Maecenas vitae justo non ante dictum
@@ -94,9 +94,9 @@
 
             <div class="col">
                 <div class="cubo">
-                    <i class="fa-solid fa-mountain-sun" style="color: antiquewhite;"></i>
+                    <i class="fa-solid fa-mountain-sun " style="color: antiquewhite;"></i>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac nulla vel
+                <p class="Toggleoff">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac nulla vel
                     justo
                     sagittis eleifend.
                     Donec a dui dui. Proin nec purus id mi condimentum ullamcorper. Maecenas vitae justo non ante dictum
@@ -111,9 +111,9 @@
 
             <div class="col">
                 <div class="cubo">
-                    <i class="fa-solid fa-route " style="color: antiquewhite;"></i>
+                    <i class="fa-solid fa-route" style="color: antiquewhite;"></i>
                 </div>
-                <p>
+                <p class="Toggleoff">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac nulla vel justo sagittis
                     eleifend.
                     Donec a dui dui. Proin nec purus id mi condimentum ullamcorper. Maecenas vitae justo non ante dictum
@@ -141,7 +141,7 @@
             <div class="row">
 
                 <div class="card" style="width: 25%;">
-                    <img src="./assets/img/card1.jpg" class="card-img-top fluid" alt="...">
+                    <img src="./assets/img/card1.jpg" class="card-img-fluid card-img" alt="...">
                     <div class="card-body">
                         <p class="card-text">Imperdiet massa tincidunt nunc pulvinar sapien et ligula. Id diam vel
                             quam
@@ -153,7 +153,7 @@
                 </div>
 
                 <div class="card" style="width: 25%;">
-                    <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/img/card2.jpg" class="card-img-fluid card-img" alt="...">
                     <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Fames ac turpis egestas sed tempus
@@ -164,7 +164,7 @@
                 </div>
 
                 <div class="card" style="width: 25%;">
-                    <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/img/card3.jpg" class="card-img-fluid card-img" alt="...">
                     <div class="card-body">
                         <p class="card-text"> Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci. Sed
                             vulputate odio ut enim.Eu feugiat pretium nibh ipsum consequat nisl vel. Posuere lorem
@@ -175,7 +175,7 @@
                 </div>
 
                 <div class="card" style="width: 25%;">
-                    <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
+                    <img src="./assets/img/card4.jpg" class="card-img-fluid card-img" alt="...">
                     <div class="card-body">
                         <p class="card-text">Id diam maecenas ultricies mi eget mauris pharetra et. Lacus vel
                             facilisis
@@ -191,42 +191,45 @@
 
 
     <!-- form -->
-    <h3 class="text-center">CONTACTO</h3>
-    <hr>
-    </hr>
-
-    <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="formGroupExampleInput">
+    <div class="container">
+        <h3 class="text-center mt-4">CONTACTO</h3>
+        <hr>
+        <div class="form-container">
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="formGroupExampleInput">
+            </div>
+            <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label">Asunto</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class="btn btn-outline-light border border-light px-5 fw-regular mb-5 mt-4 send"
+                type="button">Enviar</button>
+        </div>
     </div>
-    <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label">Asunto</label>
-        <input type="text" class="form-control" id="formGroupExampleInput2">
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            <button class="btn btn-outline-light border border-ligth px-5 fw-regular mb-5 mt-4" href="#">Enviar</button>
+
+
+    <footer>
+
+        <h4 class="p-3">VIAJES CHILE</h4>
+        <div class="icons">
+            <a href="https://github.com/felipeolivaresr"><i class="fa-brands fa-github  fa-2x"></i></a>
+            <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook  fa-2x"></i></a>
+            <a href="https://cl.linkedin.com/"><i class="fa-brands fa-linkedin  fa-2x "></i></a>
+            <a href="https://x.com/"></href> <i class="fa-brands fa-twitter  fa-2x"></i></a>
         </div>
 
-
-
-
-        <footer>
-
-            <h4>VIAJES CHILE</h4>
-            <div class="icons">
-                <a href="https://github.com/felipeolivaresr"><i class="fa-brands fa-github text-light fa-2x"></i></a> 
-                <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook text-light fa-2x"></i></a>
-                <a href="https://cl.linkedin.com/"><i class="fa-brands fa-linkedin text-light fa-2x "></i></a>
-                <a href="https://x.com/"></href> <i class="fa-brands fa-twitter text-light  fa-2x"></i></a>
-            </div>
-
-        </footer>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
-        <script src="./assets/js/script.js"></script>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
