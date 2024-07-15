@@ -10,13 +10,13 @@ $(document).ready(function () {
 
     });
 
-    $("img").each(function () {
+    $("#img1").each(function () {
         var $this = $(this);
         $this.data('originalWidth', $this.width());
         $this.data('originalHeight', $this.height());
     });
 
-    $("img").click(function () {
+    $("#img1").click(function () {
         var $this = $(this);
         var originalWidth = $this.data('originalWidth');
         var originalHeight = $this.data('originalHeight');
