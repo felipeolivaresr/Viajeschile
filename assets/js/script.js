@@ -24,9 +24,9 @@ $(document).ready(function () {
         $this.animate({
             width: "300px",
             height: "300px",
-            opacity: 0.5
+            opacity: 0.2
         }, 1000, function () {
-            // Volver a las propiedades originales
+          
             $this.animate({
                 width: originalWidth,
                 height: originalHeight,
